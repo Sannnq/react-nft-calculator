@@ -3,6 +3,8 @@ body{
     padding: 20px;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .section-title{
     display: flex;
