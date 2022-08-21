@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    padding: 20px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.section-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.section-title> h3{
+    margin-right: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.reset-button{
+    padding: 10px;
+    margin-left: 10px;
+    width: 120px;
+    height: 43px;
+    background-color: rgb(253, 185, 206);
+    border: 0px;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+
+.title-text{
+    width: 70%;
+    text-align: start;
+}
+
+.calculator-section{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.calculator-element{
+    /* display: flex;
+    justify-content: center;*/
+    background-color: rgb(198, 224, 241); 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 45px;
+    align-items: center;
+    border-radius: 5px;
+   
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.calculator-element span{
+    font-size: smaller;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 600;
+    color: rgb(68, 141, 194);
+}
+.calculator-element input{
+    border: 0px;
+    height: 95%;
+    border-radius: 5px;
+    background-color: rgb(132, 196, 241);
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: rgb(15, 57, 82);
+}
+
+.calculator-element input:focus{
+outline-style: none;
+}
+
+.calculator-element.calculate {
+    background-color: white;
+
+}
+.calculator-element.calculate input{
+ background-color: rgb(135, 221, 124);
+ width: 250%;
+ font-weight: bolder;
+}
+
+
+.assets-title{
+    text-align: start;
+}
+
+.assets{
+    display: flex;
+    justify-content: start;
+    margin-left: -1%;
+    width: 100%;
+}
+
+.assets ul{
+    list-style: none;
+ padding-left: 10px;
+ width: 100%;
+ margin: 0;
+}
+.assets li>.result{
+    background-color: rgb(198, 224, 241);
+    padding: 13px;
+    width: 80%;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(15, 57, 82);
+}
+
+.assets li>p{
+font-size: 10px;
+text-align: left;
+color: rgb(132, 196, 241);
+}
